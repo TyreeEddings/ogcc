@@ -28,7 +28,7 @@ body {
 
 .card {
   position: relative;
-  left: 0px;
+   right:27px
   width: 280px;
   height: 160px;
   background-color: var(--background);
