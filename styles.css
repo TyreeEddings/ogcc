@@ -13,7 +13,7 @@ import url('https://fonts.googleapis.com/css?family=Roboto:700,900');
 	 animation: netflix_style 6.5s 1;
 	 outline: none;
 	 white-space: nowrap;
-	 margin-top: 380px;
+   margin-top: 380px;
 }
  @keyframes netflix_style {
 	 0% {
@@ -23,23 +23,27 @@ import url('https://fonts.googleapis.com/css?family=Roboto:700,900');
 	}
 	 10% {
 		 text-shadow: 0px 0px transparent1px 1.5px #aaa2px 3px #aaa3px 4.5px #aaa4px 6px #aaa5px 7.5px #aaa6px 9px #aaa7px 10.5px #aaa8px 12px #aaa9px 13.5px #aaa10px 15px #aaa11px 16.5px #aaa12px 18px #aaa13px 19.5px #aaa14px 21px #aaa15px 22.5px #aaa16px 24px #aaa17px 25.5px #aaa18px 27px #aaa19px 28.5px #aaa20px 30px #aaa21px 31.5px #aaa22px 33px #aaa23px 34.5px #aaa24px 36px #aaa25px 37.5px #aaa26px 39px #aaa27px 40.5px #aaa28px 42px #aaa29px 43.5px #aaa30px 45px #aaa31px 46.5px #aaa32px 48px #aaa33px 49.5px #aaa34px 51px #aaa35px 52.5px #aaa36px 54px #aaa37px 55.5px #aaa38px 57px #aaa39px 58.5px #aaa40px 60px #aaa41px 61.5px #aaa42px 63px #aaa43px 64.5px #aaa44px 66px #aaa45px 67.5px #aaa46px 69px #aaa47px 70.5px #aaa48px 72px #aaa49px 73.5px #aaa50px 75px #aaa51px 76.5px #aaa52px 78px #aaa53px 79.5px #aaa54px 81px #aaa55px 82.5px #aaa56px 84px #aaa57px 85.5px #aaa58px 87px #aaa59px 88.5px #aaa60px 90px #aaa61px 91.5px #aaa62px 93px #aaa63px 94.5px #aaa64px 96px #aaa65px 97.5px #aaa66px 99px #aaa67px 100.5px #aaa68px 102px #aaa69px 103.5px #aaa70px 105px #aaa71px 106.5px #aaa72px 108px #aaa73px 109.5px #aaa74px 111px #aaa75px 112.5px #aaa76px 114px #aaa77px 115.5px #aaa78px 117px #aaa79px 118.5px #aaa80px 120px #aaa81px 121.5px #aaa82px 123px #aaa83px 124.5px #aaa84px 126px #aaa85px 127.5px #aaa86px 129px #aaa87px 130.5px #aaa88px 132px #aaa89px 133.5px #aaa90px 135px #aaa91px 136.5px #aaa92px 138px #aaa93px 139.5px #aaa94px 141px #aaa95px 142.5px #aaa96px 144px #aaa97px 145.5px #aaa98px 147px #aaa99px 148.5px #aaa100px 150px #aaa;
-		 color: yellow;
+		 color: red;
 		 transform: scale(1.5, 1.5);
 	}
 	 15% {
-		 color: yellow;
+		 color: red;
 	}
 	 20% {
-		 color: black;
+		 color: red;
 		 text-shadow: non;
 		 transform: scale(1.1, 1.1);
 	}
-	 75% {
+   50% {
+      color: blue;
+   }
+   75% {
 		 opacity: 1;
-	}
+	 color: blue;
+   }
 	 80% {
 		 opacity: 0;
-		 color: black;
+		 color: blue;
 		 transform: scale(0.85, 0.9);
 	}
 	 100% {
